@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: bisque;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: aqua;
+}
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mole {
+    background-image: url(apple.png);
+    background-size: cover;
+}
+.footer {
+    text-align: center;
+    color: bisque;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: -5px;
+}
